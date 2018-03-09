@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"    
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"     
+    xmlns:context="http://www.springframework.org/schema/context"    
+    xmlns:tx="http://www.springframework.org/schema/tx"    
+    xmlns:aop="http://www.springframework.org/schema/aop"    
+    xmlns:util="http://www.springframework.org/schema/util"    
+    xmlns:orm="http://www.springframework.org/schema/orm"     
+    xmlns:mvc="http://www.springframework.org/schema/mvc"    
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd    
+                        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd    
+                        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd    
+                        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd    
+                        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd    
+                        http://www.springframework.org/schema/orm http://www.springframework.org/schema/orm/spring-orm-4.3.xsd    
+                        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd    
+    ">  
+    <!-- 引入其他 子配置文件 -->  
+    <!-- <import resource="classpath:spring/applicationContext-basic.xml" />  --><!-- 基础信息配置 -->
+    <!-- <import resource="classpath:spring/applicationContext-dao.xml" /> -->  <!-- 数据库连接配置 -->
+   <!--  <import resource="classpath:spring/applicationContext-trans.xml" /> -->  <!-- 事务配置 -->
+    <import resource="classpath:spring/applicationContext-bean.xml" />  <!-- bean配置 -->
+    <import resource="classpath:spring/applicationContext-mvc.xml" />  <!-- 事务配置 -->
+    
+</beans>  

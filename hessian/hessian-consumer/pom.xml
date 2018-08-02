@@ -94,12 +94,6 @@
 	</dependency>
 	    
     
-    <dependency>
-    	<groupId>com.bestcxx.stu.rpc.rmi</groupId>
-    	<artifactId>api</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    
      <!-- 设置spring依赖 -->  
         <!-- spring-mvc -->  
         <dependency>  

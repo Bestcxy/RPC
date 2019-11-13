@@ -23,7 +23,7 @@ public class HomeController {
 	 */
 	@RequestMapping("/home")
 	public Map<String,Object> home(){
-		Map<String,Object> map=new HashMap<String,Object>();
+		Map<String,Object> map=new HashMap<String,Object>(4);
 		
 		String name=apiService.getName("jecket");
 		

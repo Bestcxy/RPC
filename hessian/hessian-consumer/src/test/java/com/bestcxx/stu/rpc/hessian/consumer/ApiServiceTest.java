@@ -12,7 +12,7 @@ import com.caucho.hessian.client.HessianProxyFactory;
  *
  */
 public class ApiServiceTest {
-	
+	 
 	@Test
 	public void testGetName(){
 		HessianProxyFactory hessianProxyFactory=new HessianProxyFactory();

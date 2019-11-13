@@ -9,7 +9,7 @@ import com.bestcxx.stu.rpc.rmi.service.ApiServiceImpl;
 
 @Configuration
 public class RpcBean {
-
+	
 	/**
 	 * 注册为远程服务
 	 * @return
@@ -20,8 +20,8 @@ public class RpcBean {
 		rmi.setService(getApiService());
 		rmi.setServiceName("ApiService");
 		rmi.setServiceInterface(ApiService.class);
-		rmi.setRegistryPort(8080);//注册 RMI 服务
-		rmi.setServicePort(8082);//监听 RMI 服务，不指定就是0或者随机值
+		rmi.setRegistryPort(1099);//注册 RMI 服务
+		rmi.setServicePort(1100);//监听 RMI 服务，不指定就是0或者随机值
 		return rmi;
 	}
 	

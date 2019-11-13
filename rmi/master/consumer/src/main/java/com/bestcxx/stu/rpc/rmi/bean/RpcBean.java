@@ -16,7 +16,7 @@ public class RpcBean {
 		
 		//远程服务地址，直接指定了具体的host、ip、服务名称
 		//rmiProxy.setServiceUrl("rmi://192.168.149.1:8080/ApiService");
-		rmiProxy.setServiceUrl("rmi://127.0.0.1:8080/ApiService");
+		rmiProxy.setServiceUrl("rmi://127.0.0.1:1099/ApiService");
 		
 		//定义远程服务接口，服务端是该接口对应远程服务的实现
 		rmiProxy.setServiceInterface(ApiService.class);

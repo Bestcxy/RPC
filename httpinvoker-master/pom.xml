@@ -17,7 +17,7 @@
 	   <!-- 设置utf-8编码，必须设置 -->  
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
        <!-- 设置spring版本 -->  
-       <springframework.version>4.3.0.RELEASE</springframework.version>  
+       <springframework.version>5.2.1.RELEASE</springframework.version>  
        <!-- 设置jackson版本 -->
        <jackson.version>2.10.1</jackson.version>
        <!-- junit -->
